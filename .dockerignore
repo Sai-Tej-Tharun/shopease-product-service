@@ -1,0 +1,30 @@
+# secrets and local configuration - must never end up in the image
+.env
+.env.*
+
+# virtual environments and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# git
+.git/
+.gitignore
+
+# not needed at runtime
+tests/
+postman/
+README.md
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# editor / OS / temporary files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+*.db
